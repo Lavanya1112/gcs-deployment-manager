@@ -10,4 +10,9 @@ resources:
       location: us-east1
       versioning:
         enabled: False
+      predefinedAcl:
+        type: string
+          enum:
+            - private
+      
 
