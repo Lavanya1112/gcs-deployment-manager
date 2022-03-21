@@ -3,10 +3,10 @@ imports:
     name: gcs_bucket.py
 
 resources:
-  - name: <FIXME:bucket-deployment-manager>
+  - name: gcs-bucket-deploy
     type: gcs_bucket.py
     properties:
-      name: <FIXME:bucket-deployment-manager>
+      name: gcs-bucket-deploy
       location: us-east1
       versioning:
         enabled: False
