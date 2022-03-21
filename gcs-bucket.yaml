@@ -1,0 +1,13 @@
+imports:
+  - path: templates/gcs_bucket/gcs_bucket.py
+    name: gcs_bucket.py
+
+resources:
+  - name: <FIXME:bucket-deployment-manager>
+    type: gcs_bucket.py
+    properties:
+      name: <FIXME:bucket-deployment-manager>
+      location: us-east1
+      versioning:
+        enabled: False
+
