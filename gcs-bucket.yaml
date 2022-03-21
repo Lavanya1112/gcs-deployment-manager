@@ -1,5 +1,5 @@
 imports:
-  - path: templates/gcs_bucket/gcs_bucket.py
+  - path: gcs_bucket.py
     name: gcs_bucket.py
 
 resources:
